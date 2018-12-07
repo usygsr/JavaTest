@@ -14,6 +14,15 @@ public class MathTests {
     }
 
     @Test
+    public void subtract_FourMinusTwo_ReturnsTwo() {
+        final int expected = 2;
+
+        final int actual = Math.subtract(4, 2);
+
+        assertEquals(actual, expected);
+    }
+
+    @Test
     public void divide_TenDividedByFive_ReturnsTwo() {
         final double expected = 2.0;
 
